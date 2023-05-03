@@ -236,7 +236,7 @@ class Gameboard:
             time -- string of time and date of error
         '''
         #now = datetime.now()
-        with open("mastermind_errors.err", "a") as error_log:
+        with open("../mastermind_errors.err", "a") as error_log:
             error_log.write(f"\n{time}:Error: Could not open"\
                             f" {file}")
 

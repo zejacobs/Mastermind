@@ -35,7 +35,7 @@ class TestGameboard(unittest.TestCase):
         gameboard = Gameboard()
         gameboard.error_log(file, now)
         file_content = []
-        with open("mastermind_errors.err", "r") as errors:
+        with open("../mastermind_errors.err", "r") as errors:
             for each in errors:
                 file_content.append(each)
         logged_error = str(now) + f":Error: Could not open {file}"

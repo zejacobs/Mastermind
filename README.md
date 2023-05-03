@@ -13,8 +13,10 @@ color in the guess is not in the secret code. The game ends when the
 player correctly guesses the secret code and their score (# of guesses)
 is added to the leaderboard file to be displayed on subsequent plays.
 
+<img src="media/game_screenshot.gif"/>
+
 This program is entirely built upon the created Gameboard class and
-utilizes an object oriented design. Using the Turtle graphics, the
+utilizes an object-oriented design. Using the Turtle graphics, the
 Gameboard class object draws the gameboard and processes screen clicks.
 The Gameboard object also reads and writes leaderboard information to a
 file and keeps track of guess information, generates the random secret
