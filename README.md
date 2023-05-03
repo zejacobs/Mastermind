@@ -1,12 +1,8 @@
+# Mastermind
 
-CS 5001
-Spring 2022
-Final Project
-Zachary Jacobs
+### CS 5001 Spring 2022 Final Project
 
-Mastermind: ReadMe
-
-    The file mastermind.py contains a main function that runs my version
+The file mastermind.py contains a main function that runs my version
 of the game Mastermind. In this game a sequence of 4 colors is chosen
 at random and the player has 10 guesses to correctly guess the secret
 code. Next to each guess are 4 pegs that give feedback about the entered
@@ -17,7 +13,7 @@ color in the guess is not in the secret code. The game ends when the
 player correctly guesses the secret code and their score (# of guesses)
 is added to the leaderboard file to be displayed on subsequent plays.
 
-    This program is entirely built upon the created Gameboard class and
+This program is entirely built upon the created Gameboard class and
 utilizes an object oriented design. Using the Turtle graphics, the
 Gameboard class object draws the gameboard and processes screen clicks.
 The Gameboard object also reads and writes leaderboard information to a
